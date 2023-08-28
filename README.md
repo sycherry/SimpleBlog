@@ -9,8 +9,11 @@
 React /Yup / react-hook-form / axios /
 
 # Login
-email:test@demo.com
-password: pass123
+```
+test credentials:
+- email: test@demo.com
+- pass: pass123
+```
 
 ## Screenshot
 
