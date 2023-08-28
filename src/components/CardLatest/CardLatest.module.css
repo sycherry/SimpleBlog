@@ -1,0 +1,115 @@
+.image {
+  object-fit: cover;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+.cardPanelImage {
+  height: 179px !important;
+}
+.colSet {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% + 33px);
+}
+.noGutter {
+  width: 100% !important;
+}
+.col2 {
+  width: 50%;
+}
+.col3 {
+  width: calc(33.33333333% - 33px);
+  margin-right: 33px;
+}
+.cardPanel {
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  margin-bottom: 33px;
+
+  display: flex;
+  flex-direction: column;
+}
+.cardPanelContents {
+  padding: 20px 20px 0 20px;
+}
+
+.cardPanelFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  padding: 0 20px 20px 20px;
+}
+
+.cardPanelContents .title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  margin-bottom: 20px;
+}
+.cardPanelContents .detail {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #718096;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-height: 16px;
+  margin-bottom: 30px;
+}
+
+.cardPanelFooter .date {
+  font-size: 12px;
+  color: #718096;
+}
+.cardPanelFooter .link {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.cardLatest .colSet {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cardLatest .col2 {
+  display: flex;
+  position: relative;
+}
+
+.cardLatest .cardPanel {
+  border: 1px solid #e2e2e2;
+}
+.cardLatest .colSet {
+  flex-direction: row-reverse;
+}
+.cardPanelLatestImage {
+  max-height: 250px;
+  object-fit: cover;
+}
+.cardLatest .cardPanelContents .title {
+  font-size: 30px;
+}
+.cardPanelInner {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 60px 20px 20px;
+}
+.category {
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  padding: 6px 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  background: #2196f5;
+  color: #ffffff;
+  border: none;
+}

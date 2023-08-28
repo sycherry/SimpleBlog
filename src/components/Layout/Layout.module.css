@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2e2e2;
+  height: 85px;
+  padding: 0 83px;
+}
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+}
+.login {
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none !important;
+}
+.userWrapper {
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+}
+.userIcon {
+  border-radius: 50%;
+}
+.displayName {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.icon {
+  padding: 10px 15px 0 15px;
+  font-size: 40px;
+}
+.logo:hover,
+.login:hover,
+.icon:hover {
+  opacity: 0.5;
+}

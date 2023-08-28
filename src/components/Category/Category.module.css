@@ -1,0 +1,20 @@
+.categories {
+  display: flex;
+  padding-bottom: 40px;
+}
+.categories li {
+  padding: 6px 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.categories li:not(.selected) {
+  border: 1px solid #000000;
+  color: #212121;
+  padding: 6px 20px;
+}
+.selected {
+  background: #2196f5;
+  color: #ffffff;
+  border: none;
+}
