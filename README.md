@@ -6,7 +6,7 @@
 - Run `npm run dev`# SimpleBlog
 
 # SimpleBlog
-React /Yup / react-hook-form / axios /
+React / useContext / Yup / react-hook-form / axios /
 
 # Login
 ```
